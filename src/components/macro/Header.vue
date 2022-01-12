@@ -1,5 +1,12 @@
 <template>
     <header>
+        <div>
+            <div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-100" src="../../assets/images/h5-slide-2-background.jpg" alt="">
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row align-items center">
                 <div class="left col-4">
@@ -11,7 +18,9 @@
             </div>
             
         </div>
+        
     </header>
+    
     
 </template>
 
@@ -32,9 +41,19 @@ export default {
     }
     img{
         height: 32px;
+        cursor: pointer;
     }
-    header{
+    .container{
         position: sticky;
         z-index: 10;
+        
+    }
+    header{
+        height: 850px;
+    }
+    .carousel-item{
+        min-height: 800px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 </style>

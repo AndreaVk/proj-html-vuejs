@@ -1,6 +1,6 @@
 <template>
     <nav class="nav-bar">
-        <ul class="nav-bar__list">
+        <ul class="nav-bar__list col-8">
             <li class="nav-bar__item">
                 <a href="#Home">Home</a>
             </li>
@@ -20,6 +20,7 @@
                 <a href="#Elements">Elements</a>
             </li>
         </ul>
+        
     </nav>
 </template>
 
