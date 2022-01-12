@@ -1,14 +1,7 @@
 <template>
     <header>
-        <div>
-            <div>
-                <div class="carousel-item active">
-                    <img class="d-block w-100 h-100" src="../../assets/images/h5-slide-2-background.jpg" alt="">
-                </div>
-            </div>
-        </div>
         <div class="container">
-            <div class="row align-items center">
+            <div class="row align-items center" id="fix">
                 <div class="left col-4">
                     <img src="../../assets/images/logo-light.png" alt="">
                 </div>
@@ -16,9 +9,12 @@
                     <NavBar />
                 </div>
             </div>
-            
+            <div class="text">
+                <h1>Accelerate Your Career</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iure? Et qui minima facilis ullam saepe dignissimos. Facere illo dicta cupiditate dignissimos. Nulla deserunt fuga corporis inventore laudantium reiciendis qui!</p>
+                <button>Register Now</button>
+            </div>
         </div>
-        
     </header>
     
     
@@ -43,17 +39,35 @@ export default {
         height: 32px;
         cursor: pointer;
     }
-    .container{
-        position: sticky;
+    #fix{
         z-index: 10;
+        position: sticky;
         
     }
     header{
         height: 850px;
+        background-image: url('../../assets/images/h5-slide-1-background.jpg');
     }
-    .carousel-item{
-        min-height: 800px;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .text{
+        text-align: center;
+        margin-top: 20%;
+    }
+    h1,
+    p{
+        color: white;
+    }
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        background-color:#00AFFF ;
+        border: 1px solid #00AFFF;
+        color: white;
+        font-weight: bold;
+        padding: 14px 36px;
+        margin-top: 32px;
     }
 </style>
