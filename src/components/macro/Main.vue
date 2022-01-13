@@ -10,6 +10,9 @@
         <div class="part2">
             <Part2/>
         </div>
+        <div class="Part3">
+            <Part3/>
+        </div>
     </main>
 </template>
 
@@ -17,12 +20,14 @@
 import Square from '../elements/Square.vue';
 import Part1 from '../elements/Part1.vue';
 import Part2 from '../elements/Part2.vue';
+import Part3 from '../elements/Part3.vue';
 export default {
     name:'Main',
     components:{
         Square,
         Part1,
         Part2,
+        Part3,
     }
 }
 </script>

@@ -55,7 +55,9 @@ export default {
         margin-bottom: 25px;
         width: 85%;
     }
-    
+    .info{
+        margin-left: 60px;
+    }
     .dati{
         margin: 0 auto;
         display: flex;
@@ -71,7 +73,7 @@ export default {
         flex-direction: column;
         color:#00AFFF;
         margin-right: 85px;
-        
+        margin-bottom: 10px;
     }
     h5{
         font-size: 48px;
