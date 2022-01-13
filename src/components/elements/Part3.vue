@@ -40,7 +40,7 @@
         background-image: url('../../assets/images/h5-parallax-img-1.png');
         height: 650px;
         width: 100%;
-        z-index: 1;
+        z-index: 5;
     }
 
     .carousel-item{
