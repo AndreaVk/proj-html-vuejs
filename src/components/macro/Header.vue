@@ -40,7 +40,7 @@ export default {
         cursor: pointer;
     }
     #fix{
-        z-index: 10;
+        z-index: 99;
         position: sticky;
         
     }

@@ -16,8 +16,14 @@
             <li class="nav-bar__item">
                 <a href="#Pages">Pages</a>
             </li>
-            <li class="nav-bar__item">
-                <a href="#Elements">Elements</a>
+            <li class="nav-bar__item" id="icons">
+                <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-bar__item" id="icons">
+                <i class="far fa-shopping-bag"></i>
+            </li>
+            <li class="nav-bar__item" id="icons">
+                <i class="fas fa-bars"></i>
             </li>
         </ul>
         
@@ -50,4 +56,10 @@ export default {
         }
     }
 }
+#icons{
+    color: white;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
 </style>
