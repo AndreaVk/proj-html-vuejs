@@ -61,5 +61,4 @@ export default {
     cursor: pointer;
     margin-left: 35px;
 }
-
 </style>
