@@ -26,7 +26,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis nulla fuga nobis dolorum eveniet odio perferendis nihil optio quidem laudantium, nostrum temporibus excepturi quam asperiores recusandae, exercitationem magnam consectetur?</p>
 
             </div>
+            
         </div>
+        <div class="circle">
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+        </div> 
     </div>
 </template>
 
@@ -104,5 +110,23 @@ export default {
         padding: 5px 20px;
         background-color: aqua;
         border-radius: 15px;
+    }
+
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+    }
+
+    .circle i{
+        margin-left: 10px;
+        font-size: 13px;
+        color: #9CE0FF;
+        cursor: pointer;
+    }
+
+    .circle i:hover{
+        color:#40C4FF ;
     }
 </style>
