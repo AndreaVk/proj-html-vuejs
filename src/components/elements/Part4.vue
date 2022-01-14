@@ -15,6 +15,18 @@
                 <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                     <h2>Learning Possibilities</h2>
                     <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                    <div class="check-part">
+                        <ul>
+                            <li><i id="check" class="fas fa-check"></i>We enrich lives through learning.</li>
+                            <li><i id="check" class="fas fa-check"></i>Maximizing potential through individual attention.</li>
+                            <li><i id="check" class="fas fa-check"></i>The trusted name for specialized training.</li>
+                            <li><i id="check" class="fas fa-check"></i>People teach. People learn. This is where they connect.</li>
+                        </ul>
+                        <div class="image">
+                            <img src="../../assets/images/h12-tabs-icon-1.png" alt="">
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="tab-pane fade show" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Davide</div>
                 <div class="tab-pane fade show" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Luigi</div>
@@ -51,5 +63,29 @@ export default{
     }
     h2{
         font-size: 40px;
+        
+    }
+    ul{
+        margin-top: 55px;
+        margin-left: -30px;
+    }
+    li{
+        list-style: none;
+        margin-top: 20px;
+        color: #9A9A9A;
+    }
+    #check{
+        color:#00AFFF ;
+        margin-right: 9px;
+    }
+
+    .check-part{
+        display: flex;
+    }
+
+    img{
+        width: 130px;
+        margin-left: 80px;
+        margin-top: 120px;
     }
 </style>
